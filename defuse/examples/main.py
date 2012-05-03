@@ -1,6 +1,6 @@
 import sys
 sys.path.insert(0, '../')
-from fs import FS
+from defuse.fs import FS
 import evalfs, simple
 
 fs = FS.get()

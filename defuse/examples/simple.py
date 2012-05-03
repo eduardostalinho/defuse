@@ -1,7 +1,7 @@
 import fuse
 from stat import S_IRUSR, S_IXUSR, S_IWUSR, S_IRGRP, S_IXGRP, S_IXOTH, S_IROTH
 
-from fs import FS, BaseMetadata
+from defuse.fs import FS, BaseMetadata
 
 
 fs = FS.get()
